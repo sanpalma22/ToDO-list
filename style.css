@@ -1,4 +1,63 @@
+body{
+    background-color: #d7eaff;
+    font-family: 'Courier New', Courier, monospace;
+}
 li{
+    cursor:pointer;
+    list-style:none;
+    width: 25%;
+    font-size: 25px;
+}
+ul div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.boton {
+    padding: 5px 10px;
     cursor: pointer;
-    list-style: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.tachar{
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+.tachar img{
+    width: 50px;
+}
+.tarea-hecha {
+    background-color: rgba(240, 128, 128, 0.655);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.tarea-pendiente {
+    background-color: rgba(144, 238, 144, 0.655);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.ingresos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+}
+input[type="text"]:focus {
+    border-color: #007bff; 
+    outline: none;
+}
+#resultado{
+    margin-top: 10px;
+    text-align: center;
 }
